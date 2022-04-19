@@ -3,7 +3,7 @@ terraform {
   backend "remote" {
     organization = "artofcloud"
     workspaces {
-      name = "artofclouds"
+      name = "artofcloud"
     }
   }
   // Specificing provider to ensure no provider breaking changes.
@@ -19,14 +19,12 @@ terraform {
 
 // Profile information for the AWS Provider.
 provider "aws" {
-  region  = var.region
-  profile = var.profile
-
-  default_tags = {
+  region = var.region
+  default_tags {
     tags = {
-      Environment = "Example"
-      Owner       = "ArtofCloud"
-      Project     = "Example-Project"
+      Environment = "Dev"
+      Owner       = "ArtOfCloud"
+      Project     = "Example"
     }
   }
 }

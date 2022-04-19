@@ -14,7 +14,7 @@ resource "aws_s3_bucket" "artofcloud_bucket" {
 }
 
 resource "aws_s3_bucket_acl" "artofcloud_acl" {
-  bucket = aws_s3_bucket.b.id
+  bucket = aws_s3_bucket.artofcloud_bucket.bucket
   // i dont want the contents of this bucket to be public.
   acl = "private"
 }

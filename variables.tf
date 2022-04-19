@@ -4,7 +4,6 @@ variable "region" {
 }
 
 variable "profile" {
-  type      = string
-  sensitive = true
-  default   = "personal"
+  type    = string
+  default = "artofcloud"
 }
