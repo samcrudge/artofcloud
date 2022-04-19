@@ -5,7 +5,7 @@ resource "aws_instance" "example_artofcloud" {
 
 
 resource "aws_s3_bucket" "artofcloud_bucket" {
-  bucket = "my-tf-test-bucket"
+  bucket = "artofcloud-test-bucket"
 
   tags = {
     Name        = "My bucket"
