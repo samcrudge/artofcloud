@@ -6,5 +6,5 @@ variable "region" {
 variable "profile" {
   type      = string
   sensitive = true
-  defult    = "artofcloud"
+  default   = "personal"
 }

@@ -12,13 +12,6 @@ terraform {
       source  = "hashicorp/aws"
       version = "4.10.0"
       // Adding tags by default to all provisioned infrastructure.
-      default_tags = {
-        tags = {
-          Environment = "Example"
-          Owner       = "ArtofCloud"
-          Project     = "Example-Project"
-        }
-      }
     }
     // You can any addition providers under here.
   }
@@ -28,4 +21,12 @@ terraform {
 provider "aws" {
   region  = var.region
   profile = var.profile
+
+  default_tags = {
+    tags = {
+      Environment = "Example"
+      Owner       = "ArtofCloud"
+      Project     = "Example-Project"
+    }
+  }
 }
