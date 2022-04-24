@@ -5,3 +5,15 @@
 
 <a href=""><img src="hhttps://www.memecreator.org/static/images/memes/5277332.jpg"/></a>
 ![Figure 1-1](https://www.memecreator.org/static/images/memes/5277332.jpg "meme")
+
+
+Basic commands:
+
+terraform init
+terraform validate
+terraform plan
+terraform apply
+terraform destroy
+
+
+always run destory when you're done
