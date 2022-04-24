@@ -1,4 +1,6 @@
 resource "aws_instance" "example_artofcloud" {
+  // this is a virual machine.
+  # count         = 10
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t3.micro"
 }
