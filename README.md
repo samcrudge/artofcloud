@@ -1,5 +1,10 @@
 # ArtofCloud Repository for examples used in my blog.
 
+###  Prerequisites
+- terraform cli
+- awscli
+
+
 [![Terraform](https://github.com/SamCrudge/artofcloud/actions/workflows/main.yml/badge.svg)](https://github.com/SamCrudge/artofcloud/actions/workflows/main.yml)
 
 
