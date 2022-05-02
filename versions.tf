@@ -11,7 +11,6 @@ terraform {
     aws = {
       source  = "hashicorp/aws"
       version = "4.10.0"
-      // Adding tags by default to all provisioned infrastructure.
     }
     // You can any addition providers under here.
   }
