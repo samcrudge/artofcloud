@@ -5,7 +5,6 @@ resource "aws_instance" "example_artofcloud" {
   instance_type = "t3.micro"
 }
 
-
 resource "aws_s3_bucket" "artofcloud_bucket" {
   bucket = "artofcloud-test-bucket"
 
