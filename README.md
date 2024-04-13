@@ -10,11 +10,11 @@
 
 Basic commands:
 
-terraform init
-terraform validate
-terraform plan
-terraform apply
-terraform destroy
+- terraform init
+- terraform validate
+- terraform plan
+- terraform apply
+- terraform destroy
 
 
 always run destory when you're done
